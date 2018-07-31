@@ -12,7 +12,7 @@ public class ThreadClass {
 			public void run() {
 				System.out.println("Start :: " + Thread.currentThread().getName());
 				try {
-					Thread.sleep(10000000);
+					Thread.sleep(100);
 				} catch (InterruptedException e) {
 					throw new RuntimeException(e);
 				}
